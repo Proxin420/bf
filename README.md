@@ -142,6 +142,45 @@ The syntax for Brainfuck++ looks like this
 !!> 0 : Else if the current value stored on the pointer is not equals to the value specified in [ARGS] then run the code between if statement and End statement
 ```
 
+## examples
+
+### hello world
+```
+= 104
+. 0
+
+- 2
+. 0
+
++ 6
+. 0
+. 0
+
++ 2
+. 0
+
+= 32
+. 0
+
+= 119
+. 0
+
+- 7
+. 0
+
++ 2
+. 0
+
+- 5
+. 0
+
+- 7
+. 0
+
+= 10
+. 0
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
