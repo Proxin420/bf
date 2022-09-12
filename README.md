@@ -118,56 +118,36 @@ To Compile a brainfuck++ program Run this command when inside the bf directory
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<!-- SYNTAX -->
+## Syntax
+
+The syntax for Brainfuck++ looks like this
+```
+[KWORD] [ARGS]
+```
+### Keywords
+```
+> 0 : Increase memory pointer by the specified amount in [ARGS]
+< 0 : Decrease memory pointer by the specified amount in [ARGS]
++ 0 : Increase value stored on pointer by the specified amount in [ARGS]
+- 0 : Decrease value stored on pointer by the specified amount in [ARGS]
+= 0 : Set the value stored on pointer to the specified value in [ARGS]
+. 0 : Output value stored on pointer to stdout
+, 0 : Set the stored value of the pointer to input from stdin
+[ 0 : Loop until the value stored on the pointer is equals to the value specified in [ARGS]
+] 0 : End if statements and loops
+=> 0 : If the current value stored on the pointer is equals to the value specified in [ARGS] then run the code between if statement and End statement
+!> 0 : If the current value stored on the pointer is not equals to the value specified in [ARGS] then run the code between if statement and End statement
+!=> 0 : Else if the current vvalue stored on the pointer is equals to the value specified in [ARGS] then run the code between if statement and End statement
+!!> 0 : Else if the current value stored on the pointer is not equals to the value specified in [ARGS] then run the code between if statement and End statement
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
